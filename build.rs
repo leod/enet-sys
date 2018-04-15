@@ -19,6 +19,7 @@ fn main() {
 
     
     let dst = Config::new("vendor/enet")
+                .cflag("-DENET_DEBUG")
                 .build_target("enet")
                 .build();
 
